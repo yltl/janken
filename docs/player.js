@@ -10,7 +10,7 @@ function action(oppornent){
   let isEven = amari == 0;
   console.log(`${matches}%3 = ${amari}: ${isEven}`);
   if(isEven){
-    return CHOKI
+    return CHOKI;
   }
   return GU;
 }
