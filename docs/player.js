@@ -4,8 +4,10 @@
 
 let matches = 0;
 
-function action(oppornent){
-  matches = matches + 1;
+
+
+function actionAgainstOmoteUra2(){
+    matches = matches + 1;
   let amari = matches % 3;
   let isEven = amari == 0;
   console.log(`${matches}%3 = ${amari}: ${isEven}`);
@@ -13,4 +15,9 @@ function action(oppornent){
     return CHOKI;
   }
   return GU;
+}
+
+function action(oppornent){
+ let result = actionAgainstOmoteUra2();
+ return result;
 }
